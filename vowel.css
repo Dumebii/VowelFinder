@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(aqua, blue, aqua, blue);
+    font-size: 3em;
+}
+
+div {
+    margin-top: 50px;
+    margin-left: 10em;
+}
+
+input {
+    display: block;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: orange;
+    font-size: 2em;
+}
+
+button {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: magenta;
+    border-radius: 30px;
+}
+
+h3 {
+    font-size: 0.5em;
+    color: white;
+    text-align: center;
+}
