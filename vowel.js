@@ -1,4 +1,6 @@
 function vowelFinder() {
+    var toChange = document.querySelector("h3");
+    
     var input = document.querySelector("#vowel-collector").value;
     console.log(input);
 
@@ -22,5 +24,6 @@ function vowelFinder() {
         vowelCount++
         break;
     }}
-    alert("The total number of vowels is " + vowelCount);
+    
+    toChange.innerHTML = "The total number of vowels is " + vowelCount
 }
