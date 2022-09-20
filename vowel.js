@@ -4,12 +4,8 @@ function vowelFinder() {
     var input = document.querySelector("#vowel-collector").value;
     console.log(input);
 
-//     var numberOfWords = []
-//     numberOfWords.push(input)
-    
     var vowelCount=0;
     var spreadInput= [...input];
-//     var spreadWords= [...numberOfWords]
     for (let val of spreadInput) {
     switch(val) {
         case "a":
